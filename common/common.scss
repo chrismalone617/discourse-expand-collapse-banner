@@ -50,6 +50,7 @@ $accent-color: #18a50b;
     background-position: center center;
     background-repeat: no-repeat;
     background-color: $background-color; /* to be sure that even if the image above will not be loaded there will be at least a colored background */
+    box-shadow: #000 5px 5px 5px;
 }
 
 /* #banner-content_wrap {
