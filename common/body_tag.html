@@ -1,12 +1,13 @@
 <script>
-$("body").on("click", "#banner-content_wrap_toggle", function() {
-  $("#banner-content_wrap").slideToggle();
-
-  let buttonText =
-    $(this).text() === "Expand Details"
-      ? "Hide Details"
-      : "Expand Details";
-
-  $(this).text(buttonText);
-});
-</script>
+  $("body").on("click", "#banner-content_wrap_toggle", function() {
+    $("#banner-content_wrap").slideToggle();
+  
+    let buttonText =
+      $(this).text() === "Expand"
+        ? "Hide"
+        : "Expand";
+  
+    $(this).text(buttonText);
+  });
+  </script>
+  
