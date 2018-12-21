@@ -2,8 +2,8 @@
    VARIABLES: choose the colors of your banner
 -------------------------------------------------*/
 
-$main-color: #5270FE;
-$background-color: #BFD7FF;
+$main-color: #f3f3f3;
+$background-color: #426194;
 
 /*-------------------------------------------------
    EXPAND-COLLAPSE BANNER
@@ -44,7 +44,7 @@ $background-color: #BFD7FF;
 
 .banner-box {
     margin-bottom: 20px;
-    background-image: url("https://i.imgur.com/4qwhXM3.jpg");
+    background-image: url("https://missionmeetup-community.s3.dualstack.us-east-1.amazonaws.com/original/1X/cd24ec30be61e381d7cea049b12418b409b822fd.jpeg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -153,7 +153,17 @@ $background-color: #BFD7FF;
 
 #my-button {
     text-align: center;
-    padding-bottom: 5px;
+}
+
+#my-button a {
+    color:$main-color;
+    background: $background-color;
+    padding: 15px;
+}
+
+#my-button a:hover {
+    color: $background-color;
+    background: $main-color;
 }
 
 //IMAGE SIZE AS ICON SIZE
@@ -161,7 +171,7 @@ $background-color: #BFD7FF;
 .responsive-img {
     border-style: none;
     border-width: 1px;
-    height: 70px;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -190,4 +200,13 @@ $background-color: #BFD7FF;
     background: transparent;
     padding-top: 5px;
     float: right;
+}
+
+//HIDE BANNER ON ALL PAGES BUT CATEGORY LIST
+
+.navigation-categories .banner-box {
+    display: block;
+}
+.banner-box {
+    display: none;
 }
