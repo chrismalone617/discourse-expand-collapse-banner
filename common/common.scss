@@ -4,6 +4,7 @@
 
 $main-color: #f3f3f3;
 $background-color: #426194;
+$accent-color: #18a50b;
 
 /*-------------------------------------------------
    EXPAND-COLLAPSE BANNER
@@ -161,7 +162,12 @@ $background-color: #426194;
     padding: 10px;
 }
 
-#my-button a:hover {
+#my-button a.btn2 {
+    color:$background-color;
+    background: $accent-color;
+}
+
+#my-button a:hover #my-button a.btn2 {
     color: $background-color;
     background: $main-color;
 }
