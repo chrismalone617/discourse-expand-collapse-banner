@@ -9,5 +9,10 @@
   
     $(this).text(buttonText);
   });
+
+  $('#main').on('click', '.banner-box .close', function(e) {
+      $(e.target).parent().remove();
+  });
+  
   </script>
   
