@@ -1,6 +1,6 @@
 {
-  "name": "Expand/collapse banner",
-  "about_url": "https://github.com/discourse/discourse-expand-collapse-banner",
-  "license_url": "https://github.com/discourse/discourse-expand-collapse-banner/blob/master/LICENSE",
+  "name": "Expand/collapse banner Custom",
+  "about_url": "https://github.com/chrismalone617/discourse-expand-collapse-banner",
+  "license_url": "https://github.com/chrismalone617/discourse-expand-collapse-banner/blob/master/LICENSE",
   "component": true
 }
